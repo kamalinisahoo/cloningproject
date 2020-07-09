@@ -20,6 +20,11 @@ The model scores
 
 ![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/test.PNG)
 
+## Future Prospects
+
+One can use a popular pretrained image recognition and classification model like MobileNet, InceptionV3, ResNet50, Xception or VGG16.
+A more robust approach would be to use a pretrained real time object detection model like Faster R-CNN or YOLOv3.
+For character segmentation, one can use the IBM watson bounding box markup service.
 
 ### Prerequisites
 
@@ -56,6 +61,17 @@ Blurring
 Enhancing Contrast
 Edge Detection
 Corner Detection
+```
+
+### The scripts should be executed in the following order
+
+```
+data_preparation.py
+eda_and_visualization.py
+writing_preprocessed_images_into_disc.py
+bounding_box_markup.py
+label_generation.py
+recognition_model.py
 ```
 
 ## Using Contours to create bounding box and extracting the fragments from the license plate
