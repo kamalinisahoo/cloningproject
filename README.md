@@ -2,7 +2,7 @@
 
 The project segments the characters on a typical license plate using image processing techniques and the opencv library. It then uses a state-of-the-art CNN architecture to perform license plate character recognition. The project neither uses any OCR service for character segmentation nor a pre-trained model like YOLO for recognition. Everything has been coded from scratch using basic scientific python library stack.
 
-![Optional Text](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/final_prediction.png)
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/final_prediction.png)
 
 ## Getting Started
 
