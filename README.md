@@ -37,9 +37,46 @@ pip install imutils
 
 ![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/original.png)
 
-### Break down into end to end tests
+## Applying Various Image Processing Techniques
 
-Explain what these tests test and why
+### Sharpening the Images using a Kernel
+
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/sharp_original.png)
+
+### Grayscaling the Images
+
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/gray.png)
+
+### Applying the Binarization Technique
+
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/binarized_gray_1.png)
+
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/binarized_gray_2.png)
+
+### Blurring the  Binarized Images
+
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/blur_binarized_gray.png)
+
+### Enhancing Contrast of Images
+
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/enhanced_contrast.png)
+
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/enhanced_binarized.png)
+
+### Detecting Edges using Canny Edge Detector
+
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/edge_images.png)
+
+### Detecting Corners using Harris Corner Detector
+
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/corner.png)
+
+
+
+
+
+
+
 
 ```
 Give an example
