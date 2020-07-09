@@ -16,9 +16,9 @@ The model scores
 99.30% on the Testing Set
 ```
 
-![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/train.png)
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/train.PNG)
 
-![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/test.png)
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/test.PNG)
 
 
 ### Prerequisites
@@ -60,9 +60,8 @@ Corner Detection
 
 ## Using Contours to create bounding box and extracting the fragments from the license plate
 
-```
 The extracted fragments from the license plates that showcase the segmented characters have been resized in the 40 * 40 dimension. These fragments have been separately stored in the disc for visualization and label generation
-```
+
 
 ![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/segmented_chars.png)
 
