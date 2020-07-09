@@ -35,7 +35,7 @@ Keras
 Sklearn
 ```
 
-### Installing
+### Installations
 
 The deep learning and image processing libraries are not prebundled with Anaconda Distribution. They need to be installed separately using either 'pip' or 'conda' package manager
 
