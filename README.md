@@ -8,6 +8,19 @@ The project segments the characters on a typical license plate using image proce
 
 The project requires Anaconda distribution and is built using the scientific computing IDE known as Spyder. It uses basic image processing techniques to extract characters from the license plate. It then uses unsupervised learning for label generation. A popular clustering algorithm known as 'K-Means Clustering is implemented.' Finally, the project introduces a state-of-the-art CNN (Convolutional Neural Network) architecture for classifying and recognizing the characters on a vehicle license plate.
 
+The model scores  
+
+```
+99.80% on the Training Set
+99.02% on the Validation Set
+99.30% on the Testing Set
+```
+
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/train.png)
+
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/test.png)
+
+
 ### Prerequisites
 
 ```
@@ -32,6 +45,29 @@ pip install tensorflow
 pip install glob
 pip install imutils
 ```
+
+### Image Processing Techniques Applied
+
+```
+Sharpening using a Kernel
+Grayscaling
+Binarization
+Blurring
+Enhancing Contrast
+Edge Detection
+Corner Detection
+```
+
+## Using Contours to create bounding box and extracting the fragments from the license plate
+
+```
+The extracted fragments from the license plates that showcase the segmented characters have been resized in the 40 * 40 dimension. These fragments have been separately stored in the disc for visualization and label generation
+```
+
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/segmented_chars.png)
+
+A large proportion of the images in the dataset are untidy and contain a lot of noise. It is difficult to recognize the characters on the license plate even for a human.
+The project uses a popular clustering algorithm known as 'K-Means Clustering' for dividing the extracted images into homogeneous clusters. Filtering is used to identify and mark the clusters with appropriate labels. 
 
 ## Exploring the Images from the Original Dataset
 
@@ -72,55 +108,21 @@ pip install imutils
 ![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/corner.png)
 
 
+## Applying Unsupervised Learning Technique for Label Generation
 
+A large proportion of the images in the dataset are untidy and contain a lot of noise. It is difficult to recognize the characters on the license plate even for a human.
+The project uses a popular clustering algorithm known as 'K-Means Clustering' for dividing the extracted images into homogeneous clusters. Filtering is used to identify and mark the clusters with appropriate labels. 
 
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/label.png)
 
-
-
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/label_1.png)
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Anaconda](https://www.anaconda.com/) - The IDE used
+* [OpenCV](https://opencv.org/) - Image Processing
+* [Python](https://www.python.org/) - Programming Language
+* [Tensorflow](https://www.tensorflow.org/) - Deep Learning Framework
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+Thank you for reading!
+Hope you find it helpful.
