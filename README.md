@@ -35,7 +35,7 @@ pip install imutils
 
 ## Exploring the Images from the Original Dataset
 
-Explain how to run the automated tests for this system
+![vehicle_license_plate_recognition](https://github.com/iamrahul29/License-Plate-Character-Recognition-without-using-any-OCR-service-or-Pretrained-Model/blob/master/images/original.png)
 
 ### Break down into end to end tests
 
